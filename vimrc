@@ -34,6 +34,7 @@ set number
 set laststatus=2
 set updatetime=100
 set showmode
+set clipboard=unnamedplus
 
 " ================================
 " Statusline helpers
@@ -106,4 +107,11 @@ nnoremap <F2> :set number!<CR>
 nnoremap <F4> :set colorcolumn=80<CR>
 nnoremap <F5> :NERDTreeToggle<CR>
 nnoremap <F9> :make<CR>
+
+" ================================
+" Disable acustic bells
+" ================================
+set belloff=all
+set visualbell
+set t_vb=
 
